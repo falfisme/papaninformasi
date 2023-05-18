@@ -92,7 +92,7 @@
 
 
 						<li class="nav-item">
-							<a href="/admin/dashboard/" class="nav-link dasbor">
+							<a href="/admin/info/" class="nav-link dasbor">
 								<i class="nav-icon fas fa-info "></i>
 								<p>Informations</p>
 							</a>

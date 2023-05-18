@@ -18,6 +18,7 @@ class AccountLib
     {
         $this->token = @$_COOKIE['token'];
         $model = $this->tokenSelect($this->token);
+        // print_r($model);
         if (!empty($model['error'])) {
             return ['error' => 'Token required'];
         }
