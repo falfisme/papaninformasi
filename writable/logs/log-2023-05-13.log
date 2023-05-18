@@ -1,0 +1,131 @@
+CRITICAL - 2023-05-13 06:39:37 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Login.php on line 10
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Admin\Login.php(10): view('common/header', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 06:39:38 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Login.php on line 10
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Admin\Login.php(10): view('common/header', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 06:39:39 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Login.php on line 10
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Admin\Login.php(10): view('common/header', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 06:39:39 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Login.php on line 10
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Admin\Login.php(10): view('common/header', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 06:39:49 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Login.php on line 10
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Admin\Login.php(10): view('common/header', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 06:40:12 --> Undefined variable: data
+in APPPATH\Controllers\Admin\Login.php on line 10.
+ 1 APPPATH\Controllers\Admin\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Login.php', 10, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 06:43:04 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\account\index.php on line 12.
+ 1 APPPATH\Views\account\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant base_url - assumed \'base_url\' (this will throw an Error in a future version of PHP)', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\index.php', 12, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 5 APPPATH\Controllers\Admin\Login.php(10): view('account/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 06:43:07 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\account\index.php on line 12.
+ 1 APPPATH\Views\account\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant base_url - assumed \'base_url\' (this will throw an Error in a future version of PHP)', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\index.php', 12, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 5 APPPATH\Controllers\Admin\Login.php(10): view('account/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 06:43:07 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\account\index.php on line 12.
+ 1 APPPATH\Views\account\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant base_url - assumed \'base_url\' (this will throw an Error in a future version of PHP)', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\index.php', 12, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 5 APPPATH\Controllers\Admin\Login.php(10): view('account/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 06:43:29 --> Undefined variable: base_url
+in APPPATH\Views\account\index.php on line 12.
+ 1 APPPATH\Views\account\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: base_url', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\index.php', 12, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 5 APPPATH\Controllers\Admin\Login.php(10): view('account/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 07:01:26 --> Class 'App\Controllers\Admin\AccountLib' not found
+in APPPATH\Controllers\Admin\Account.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Account->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 07:01:51 --> Class 'App\Controllers\Admin\AccountLib' not found
+in APPPATH\Controllers\Admin\Account.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Account->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 07:05:33 --> Class 'App\Controllers\Controller' not found
+in APPPATH\Controllers\Admin\Account.php on line 8.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('admin/account')
+ 3 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('admin/account')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/account')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 07:05:37 --> Class 'App\Controllers\Controllers' not found
+in APPPATH\Controllers\Admin\Account.php on line 8.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('admin/account')
+ 3 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('admin/account')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/account')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 07:05:51 --> Class 'App\Controllers\Controller' not found
+in APPPATH\Controllers\Admin\Account.php on line 8.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('admin/account')
+ 3 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('admin/account')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/account')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 07:06:09 --> Class 'App\Controllers\Admin\AccountLib' not found
+in APPPATH\Controllers\Admin\Account.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Account->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

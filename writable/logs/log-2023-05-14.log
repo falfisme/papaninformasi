@@ -1,0 +1,248 @@
+CRITICAL - 2023-05-14 10:24:53 --> Invalid file: "account/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 3 APPPATH\Controllers\Admin\Account.php(17): view('account/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 10:25:28 --> Undefined variable: title
+in APPPATH\Views\common\header.php on line 6.
+ 1 APPPATH\Views\common\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Account.php(17): view('common/header')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 10:25:47 --> Invalid file: "account/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 3 APPPATH\Controllers\Admin\Account.php(18): view('account/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 10:25:58 --> Invalid file: "account/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 3 APPPATH\Controllers\Admin\Account.php(18): view('account/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 10:26:18 --> Invalid file: "account/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 3 APPPATH\Controllers\Admin\Account.php(18): view('account/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 10:26:19 --> Invalid file: "account/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 3 APPPATH\Controllers\Admin\Account.php(18): view('account/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 10:26:20 --> Invalid file: "account/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 3 APPPATH\Controllers\Admin\Account.php(18): view('account/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 10:26:20 --> Invalid file: "account/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 3 APPPATH\Controllers\Admin\Account.php(18): view('account/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 10:26:40 --> Invalid file: "account/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/index', [], true)
+ 3 APPPATH\Controllers\Admin\Account.php(18): view('account/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 10:55:57 --> Class 'App\Controllers\Controller' not found
+in APPPATH\Controllers\Admin\Account.php on line 8.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('admin/account')
+ 3 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('admin/account')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/account')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 10:57:40 --> Class 'App\Controllers\Contrpller' not found
+in APPPATH\Controllers\Admin\Account.php on line 9.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('admin/account')
+ 3 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('admin/account')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/account')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 11:09:37 --> mysqli_sql_exception: Table 'papaninformasi.token' doesn't exist in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\papaninformasi\app\Libraries\AccountLib.php(280): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\papaninformasi\app\Libraries\AccountLib.php(79): App\Libraries\AccountLib->tokenInsert('1')
+#6 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Account.php(75): App\Libraries\AccountLib->signIn('admin', 'adminxx')
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Account->actSignIn()
+#8 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+#9 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-14 11:09:37 --> Table 'papaninformasi.token' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `token` (`header`, `token`, `account_id`, `last_access`) VALUES (\'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 | 127.0.0.1\', \'0642723beb6fb771eefad1e43c957509\', \'1\', \'2023-05-14 11:09:37\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `token` (`header`, `token`, `account_id`, `last_access`) VALUES (\'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 | 127.0.0.1\', \'0642723beb6fb771eefad1e43c957509\', \'1\', \'2023-05-14 11:09:37\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `token` (`header`, `token`, `account_id`, `last_access`) VALUES (\'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 | 127.0.0.1\', \'0642723beb6fb771eefad1e43c957509\', \'1\', \'2023-05-14 11:09:37\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `token` (`header`, `token`, `account_id`, `last_access`) VALUES (:header:, :token:, :account_id:, :last_access:)', [...], false)
+ 5 APPPATH\Libraries\AccountLib.php(280): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Libraries\AccountLib.php(79): App\Libraries\AccountLib->tokenInsert('1')
+ 7 APPPATH\Controllers\Admin\Account.php(75): App\Libraries\AccountLib->signIn('admin', 'adminxx')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actSignIn()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 11:11:50 --> mysqli_sql_exception: Table 'papaninformasi.token' doesn't exist in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\papaninformasi\app\Libraries\AccountLib.php(280): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\papaninformasi\app\Libraries\AccountLib.php(79): App\Libraries\AccountLib->tokenInsert('1')
+#6 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Account.php(75): App\Libraries\AccountLib->signIn('admin', 'adminxx')
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Account->actSignIn()
+#8 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+#9 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-14 11:11:50 --> Table 'papaninformasi.token' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `token` (`header`, `token`, `account_id`, `last_access`) VALUES (\'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 | 127.0.0.1\', \'b669965eee5702285858824232dd4b1e\', \'1\', \'2023-05-14 11:11:50\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `token` (`header`, `token`, `account_id`, `last_access`) VALUES (\'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 | 127.0.0.1\', \'b669965eee5702285858824232dd4b1e\', \'1\', \'2023-05-14 11:11:50\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `token` (`header`, `token`, `account_id`, `last_access`) VALUES (\'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 | 127.0.0.1\', \'b669965eee5702285858824232dd4b1e\', \'1\', \'2023-05-14 11:11:50\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `token` (`header`, `token`, `account_id`, `last_access`) VALUES (:header:, :token:, :account_id:, :last_access:)', [...], false)
+ 5 APPPATH\Libraries\AccountLib.php(280): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Libraries\AccountLib.php(79): App\Libraries\AccountLib->tokenInsert('1')
+ 7 APPPATH\Controllers\Admin\Account.php(75): App\Libraries\AccountLib->signIn('admin', 'adminxx')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actSignIn()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 11:39:00 --> Undefined offset: 0
+in APPPATH\Libraries\AccountLib.php on line 98.
+ 1 APPPATH\Libraries\AccountLib.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 98, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(42): App\Libraries\AccountLib->selectAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->username()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:05:34 --> Undefined variable: input
+in APPPATH\Controllers\Admin\Account.php on line 184.
+ 1 APPPATH\Controllers\Admin\Account.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: input', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Account.php', 184, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:07:18 --> Undefined variable: input
+in APPPATH\Controllers\Admin\Account.php on line 184.
+ 1 APPPATH\Controllers\Admin\Account.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: input', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Account.php', 184, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:08:08 --> Undefined variable: input
+in APPPATH\Controllers\Admin\Account.php on line 184.
+ 1 APPPATH\Controllers\Admin\Account.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: input', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Account.php', 184, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:09:04 --> Trying to get property 'data' of non-object
+in APPPATH\Controllers\Admin\Account.php on line 186.
+ 1 APPPATH\Controllers\Admin\Account.php(186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'data\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Account.php', 186, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:10:02 --> Trying to get property 'data' of non-object
+in APPPATH\Controllers\Admin\Account.php on line 188.
+ 1 APPPATH\Controllers\Admin\Account.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'data\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Account.php', 188, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:12:00 --> Trying to get property 'data' of non-object
+in APPPATH\Controllers\Admin\Account.php on line 188.
+ 1 APPPATH\Controllers\Admin\Account.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'data\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Account.php', 188, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:13:33 --> Trying to get property 'data' of non-object
+in APPPATH\Controllers\Admin\Account.php on line 188.
+ 1 APPPATH\Controllers\Admin\Account.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'data\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Account.php', 188, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:30:46 --> Undefined index: id
+in APPPATH\Controllers\Admin\Account.php on line 181.
+ 1 APPPATH\Controllers\Admin\Account.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Account.php', 181, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:31:08 --> Array to string conversion
+in APPPATH\Controllers\Admin\Account.php on line 182.
+ 1 APPPATH\Controllers\Admin\Account.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Account.php', 182, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:33:55 --> Undefined index: passwordx
+in APPPATH\Libraries\AccountLib.php on line 163.
+ 1 APPPATH\Libraries\AccountLib.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: passwordx', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 163, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(196): App\Libraries\AccountLib->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:34:53 --> Undefined index: passwordx
+in APPPATH\Libraries\AccountLib.php on line 163.
+ 1 APPPATH\Libraries\AccountLib.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: passwordx', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 163, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(196): App\Libraries\AccountLib->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 14:41:17 --> Call to undefined method App\Libraries\AccountLib::upload()
+in APPPATH\Controllers\Admin\Account.php on line 198.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
