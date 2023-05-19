@@ -85,8 +85,15 @@
 
 						<li class="nav-item">
 							<a href="/admin/dashboard/" class="nav-link waria">
+								<i class="nav-icon fa fa-home"></i>
+								<p>Home</p>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="/admin/onleave/" class="nav-link waria">
 								<i class="nav-icon fa fa-door-open"></i>
-								<p>On leave / Out work</p>
+								<p>On leave</p>
 							</a>
 						</li>
 
@@ -105,17 +112,18 @@
 							</a>
 						</li>
 
+						<li class="nav-item">
+							<a href="/admin/chart/" class="nav-link wps">
+								<i class="nav-icon fa fa-area-chart"></i>
+								<p>Chart</p>
+							</a>
+						</li>
+
 						<li class="nav-header" ng-show="type == 1">Settings</li>
 						<li class="nav-item" ng-show="type == 1">
 							<a href="/admin/account/index" class="nav-link akun">
 								<i class="nav-icon fas fa-users"></i>
 								<p>User Management</p>
-							</a>
-						</li>
-						<li class="nav-item" ng-show="type == 1">
-							<a href="/admin/account/index/" class="nav-link akun">
-								<i class="nav-icon fas fa-users"></i>
-								<p>Employee Management</p>
 							</a>
 						</li>
 

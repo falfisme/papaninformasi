@@ -7,7 +7,7 @@ class Dashboard extends Controller
 {
     public function index() {
         $data = ['title' => 'Home'];
-        return view('common/header', $data) . view('onleave/index') . view('common/footer');
+        return view('common/header', $data) . view('dashboard/index') . view('common/footer');
 
         // echo 'wah gela seh';
     }

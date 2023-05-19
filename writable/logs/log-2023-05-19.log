@@ -1,0 +1,184 @@
+ERROR - 2023-05-19 00:23:55 --> mysqli_sql_exception: Unknown column 'onleave.location' in 'field list' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave....', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave....')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave....')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave....')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 00:23:55 --> Unknown column 'onleave.location' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 4 APPPATH\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 00:23:57 --> mysqli_sql_exception: Unknown column 'onleave.location' in 'field list' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave....', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave....')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave....')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave....')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 00:23:57 --> Unknown column 'onleave.location' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 4 APPPATH\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 00:24:02 --> mysqli_sql_exception: Unknown column 'onleave.location' in 'field list' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave....', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave....')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave....')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave....')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 00:24:02 --> Unknown column 'onleave.location' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 4 APPPATH\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave.date_created, onleave.date_start, onleave.location, onleave.keterangan, onleave.active, onleave.pic, onleave.id, account.nama FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 00:26:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM ...' at line 1 in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave....', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave....')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave....')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave....')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 00:26:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave.date_created, onleave.date_start, onleave.task, , onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave.date_created, onleave.date_start, onleave.task, , onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave.date_created, onleave.date_start, onleave.task, , onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 4 APPPATH\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave.date_created, onleave.date_start, onleave.task, , onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 00:27:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM ...' at line 1 in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave....', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave....')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave....')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave....')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 00:27:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave.date_created, onleave.date_start, onleave.task, , onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave.date_created, onleave.date_start, onleave.task, , onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave.date_created, onleave.date_start, onleave.task, , onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 4 APPPATH\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave.date_created, onleave.date_start, onleave.task, , onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 00:27:35 --> mysqli_sql_exception: Unknown column 'onleave.pic' in 'field list' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave....', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave....')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave....')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave....')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 00:27:35 --> Unknown column 'onleave.pic' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave.date_created, onleave.date_start, onleave.task, onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave.date_created, onleave.date_start, onleave.task, onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave.date_created, onleave.date_start, onleave.task, onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 4 APPPATH\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave.date_created, onleave.date_start, onleave.task, onleave.active, onleave.pic, onleave.id, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user ORDER BY onleave.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 00:29:59 --> mysqli_sql_exception: Unknown column 'keterangan' in 'field list' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT date_sta...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT date_sta...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT date_sta...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\OnleaveLib.php(51): CodeIgniter\Database\BaseConnection->query('SELECT date_sta...')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Onleave.php(59): App\Libraries\OnleaveLib->indextv()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndexTv()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 00:29:59 --> Unknown column 'keterangan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT date_start, keterangan, location, pic, active FROM `onleave` WHERE active = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT date_start, keterangan, location, pic, active FROM `onleave` WHERE active = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT date_start, keterangan, location, pic, active FROM `onleave` WHERE active = 1')
+ 4 APPPATH\Libraries\OnleaveLib.php(51): CodeIgniter\Database\BaseConnection->query('SELECT date_start, keterangan, location, pic, active FROM `onleave` WHERE active = 1')
+ 5 APPPATH\Controllers\Admin\Onleave.php(59): App\Libraries\OnleaveLib->indextv()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndexTv()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 00:53:45 --> mysqli_sql_exception: Unknown column 'onleave.createdby' in 'on clause' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave....', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave....')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave....')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave....')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 00:53:45 --> Unknown column 'onleave.createdby' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT onleave.date_created, onleave.date_start,  onleave.date_end, onleave.task, onleave.active, onleave.id, onleave.id_createdby, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user and account.id = onleave.createdby ORDER BY onleave.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onleave.date_created, onleave.date_start,  onleave.date_end, onleave.task, onleave.active, onleave.id, onleave.id_createdby, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user and account.id = onleave.createdby ORDER BY onleave.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onleave.date_created, onleave.date_start,  onleave.date_end, onleave.task, onleave.active, onleave.id, onleave.id_createdby, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user and account.id = onleave.createdby ORDER BY onleave.date_created DESC; ')
+ 4 APPPATH\Libraries\OnleaveLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT onleave.date_created, onleave.date_start,  onleave.date_end, onleave.task, onleave.active, onleave.id, onleave.id_createdby, account.nama, account.jabatan FROM `onleave` LEFT JOIN `account` ON account.id = onleave.id_user and account.id = onleave.createdby ORDER BY onleave.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Onleave.php(51): App\Libraries\OnleaveLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Onleave->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
