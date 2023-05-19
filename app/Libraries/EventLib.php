@@ -5,7 +5,7 @@ namespace App\Libraries;
 use App\Helpers\QueryHelper;
 
 
-class InfoLib
+class EventLib
 {
 
     public function __construct()
@@ -19,7 +19,7 @@ class InfoLib
     {
         $allowed = ['id', 'terdaftar', 'username', 'email', 'type', 'last_login'];
         $allowed_map = [];
-        $query = "SELECT SQL_CALC_FOUND_ROWS * FROM info WHERE 1";
+        $query = "SELECT SQL_CALC_FOUND_ROWS * FROM event WHERE 1";
         $condition = $this->qh->setFilter($query, $filter, $allowed, $allowed_map);
         $this->qh->setOrder($query, $order);
         $this->qh->setLimit($query, $page, $limit);
@@ -36,7 +36,7 @@ class InfoLib
     public function index2()
     {
         $this->db = \Config\Database::connect();
-        $model = $this->db->query("SELECT info.date_created, info.image, info.title, info.active, account.nama, info.id FROM `info` LEFT JOIN `account` ON account.id = info.id_user ORDER BY info.date_created DESC; ")
+        $model = $this->db->query("SELECT event.date_created, event.date_start, event.location, event.keterangan, event.active, event.pic, event.id, account.nama FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ")
             ->getResult();
         $result = [
             'success' => 'Get Index success',
@@ -48,7 +48,7 @@ class InfoLib
     public function indextv()
     {
         $this->db = \Config\Database::connect();
-        $model = $this->db->query("SELECT caption, image, active FROM `info` WHERE active = 1")
+        $model = $this->db->query("SELECT date_start, keterangan, location, pic, active FROM `event` WHERE active = 1")
             ->getResult();
         $result = [
             'success' => 'Get Index success',
@@ -60,7 +60,7 @@ class InfoLib
     public function select($username)
     {
         $model = $this->db->query(
-            "SELECT * FROM info WHERE LOWER(username) = ? AND deleted = 0",
+            "SELECT * FROM event WHERE LOWER(username) = ? AND deleted = 0",
             [strtolower($username)]
         )->getRow();
         if (empty($model)) {
@@ -72,7 +72,7 @@ class InfoLib
     public function selectWithId($id)
     {
         $model = $this->db->query(
-            "SELECT * FROM info WHERE LOWER(id) = ? AND deleted = 0",
+            "SELECT * FROM event WHERE LOWER(id) = ? AND deleted = 0",
             [$id]
         )->getRow();
         if (empty($model)) {
@@ -83,23 +83,23 @@ class InfoLib
 
     public function insert($data)
     {
-        $allowed = ['id', 'image', 'title', 'caption', 'data_created', 'data_updated', 'active', 'id_user', 'deleted'];
+        $allowed = ['id', 'date_created', 'date_updated', 'date_start', 'date_end', 'location',  'pic', 'status',  'active', 'keterangan', 'id_createdby', 'id_user', 'deleted'];
         $model = $this->qh->setInput($data, $allowed);
-        $this->db->table('info')->insert($model);
-        // $this->db->table('info')->insert($data);
+        $this->db->table('event')->insert($model);
+        // $this->db->table('event')->insert($data);
         $iid = $this->db->insertID();
         $affected = $this->db->affectedRows();
         if (!$affected) {
             return ['error' => 'No changes.'];
         }
-        return ['success' => 'Add info success', 'id' => $iid];
+        return ['success' => 'Add event success', 'id' => $iid];
     }
 
     public function update($data)
     {
-        $allowed = ['id', 'image', 'title', 'caption', 'data_created', 'data_updated', 'active', 'id_user', 'deleted'];
+        $allowed = ['id', 'date_created', 'date_updated', 'date_start', 'date_end', 'location',  'pic', 'status',  'active', 'keterangan', 'id_createdby', 'id_user', 'deleted'];
         $model = $this->qh->setInput($data, $allowed);
-        $this->db->table('info')->update($model, ['id' => $data['id']]);
+        $this->db->table('event')->update($model, ['id' => $data['id']]);
         $affected = $this->db->affectedRows();
         if (!$affected) {
             return ['error' => 'No changes.'];
@@ -113,7 +113,7 @@ class InfoLib
 
     public function delete($id)
     {
-        $this->db->table('info')->delete(['id' => $id]);
+        $this->db->table('event')->delete(['id' => $id]);
         $affected = $this->db->affectedRows();
         if (!$affected) {
             return ['error' => 'No changes.'];

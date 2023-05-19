@@ -99,7 +99,7 @@
 						</li>
 
 						<li class="nav-item">
-							<a href="/admin/dashboard" class="nav-link wps">
+							<a href="/admin/event/" class="nav-link wps">
 								<i class="nav-icon fa fa-calendar"></i>
 								<p>Events</p>
 							</a>

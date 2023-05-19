@@ -196,3 +196,151 @@ in APPPATH\Controllers\Admin\Info.php on line 25.
  2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
  3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 23:12:09 --> Illegal offset type
+in APPPATH\Controllers\Admin\Info.php on line 67.
+ 1 APPPATH\Controllers\Admin\Info.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Info.php', 67, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Info->index2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 23:21:12 --> Cannot redeclare App\Controllers\Admin\Info::actIndexTV()
+in APPPATH\Controllers\Admin\Info.php on line 127.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-05-18 23:25:35 --> mysqli_sql_exception: Unknown column 'event.image' in 'field list' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT event.da...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT event.da...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT event.da...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\EventLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT event.da...')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Event.php(51): App\Libraries\EventLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Event->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-18 23:25:35 --> Unknown column 'event.image' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 4 APPPATH\Libraries\EventLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Event.php(51): App\Libraries\EventLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Event->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 23:25:53 --> mysqli_sql_exception: Unknown column 'event.image' in 'field list' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT event.da...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT event.da...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT event.da...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\EventLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT event.da...')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Event.php(51): App\Libraries\EventLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Event->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-18 23:25:53 --> Unknown column 'event.image' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 4 APPPATH\Libraries\EventLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Event.php(51): App\Libraries\EventLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Event->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 23:26:09 --> mysqli_sql_exception: Unknown column 'event.image' in 'field list' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT event.da...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT event.da...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT event.da...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\EventLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT event.da...')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Event.php(51): App\Libraries\EventLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Event->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-18 23:26:09 --> Unknown column 'event.image' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 4 APPPATH\Libraries\EventLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Event.php(51): App\Libraries\EventLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Event->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 23:26:24 --> mysqli_sql_exception: Unknown column 'event.image' in 'field list' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT event.da...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT event.da...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT event.da...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\EventLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT event.da...')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Event.php(51): App\Libraries\EventLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Event->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-18 23:26:24 --> Unknown column 'event.image' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 4 APPPATH\Libraries\EventLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT event.date_created, event.image, event.title, event.active, account.nama, event.id FROM `event` LEFT JOIN `account` ON account.id = event.id_user ORDER BY event.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Event.php(51): App\Libraries\EventLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Event->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 23:48:03 --> mysqli_sql_exception: Unknown column 'deleted' in 'where clause' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM e...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\EventLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...', Array)
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Event.php(73): App\Libraries\EventLib->selectWithId('1')
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Event->actSelect()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-18 23:48:03 --> Unknown column 'deleted' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM event WHERE LOWER(id) = \'1\' AND deleted = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM event WHERE LOWER(id) = \'1\' AND deleted = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM event WHERE LOWER(id) = \'1\' AND deleted = 0')
+ 4 APPPATH\Libraries\EventLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM event WHERE LOWER(id) = ? AND deleted = 0', [...])
+ 5 APPPATH\Controllers\Admin\Event.php(73): App\Libraries\EventLib->selectWithId('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Event->actSelect()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 23:48:56 --> mysqli_sql_exception: Unknown column 'deleted' in 'where clause' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM e...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\EventLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...', Array)
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Event.php(73): App\Libraries\EventLib->selectWithId('1')
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Event->actSelect()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-18 23:48:56 --> Unknown column 'deleted' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM event WHERE LOWER(id) = \'1\' AND deleted = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM event WHERE LOWER(id) = \'1\' AND deleted = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM event WHERE LOWER(id) = \'1\' AND deleted = 0')
+ 4 APPPATH\Libraries\EventLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM event WHERE LOWER(id) = ? AND deleted = 0', [...])
+ 5 APPPATH\Controllers\Admin\Event.php(73): App\Libraries\EventLib->selectWithId('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Event->actSelect()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

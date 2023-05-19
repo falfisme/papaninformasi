@@ -4,15 +4,15 @@ namespace App\Controllers\Admin;
 
 use CodeIgniter\Controller;
 use App\Libraries\AccountLib;
-use App\Libraries\InfoLib;
+use App\Libraries\EventLib;
 use App\Libraries\EmailingLib;
 
-class Info extends Controller
+class Event extends Controller
 {
     public function __construct()
     {
         $this->account = new AccountLib;
-        $this->info = new InfoLib;
+        $this->event = new EventLib;
         
     }
 
@@ -26,7 +26,7 @@ class Info extends Controller
             'title' => 'Home',
             'id_user' => $this->account->signCheck()['model']->id,
         ];
-        return view('common/header', $data) . view('info/index', $data) . view('common/footer');
+        return view('common/header', $data) . view('event/index', $data) . view('common/footer');
     }
 
     public function form()
@@ -38,7 +38,7 @@ class Info extends Controller
             'title' => 'Form',
             'id_user' => $this->account->signCheck()['model']->id,
         ];
-        return view('common/header', $data) . view('info/form', $data) . view('common/footer');
+        return view('common/header', $data) . view('event/form', $data) . view('common/footer');
     }
 
     // 
@@ -48,7 +48,7 @@ class Info extends Controller
             die('please <a href="/admin/account/login">login</a>.');
         }
 
-        $model = $this->info->index2();
+        $model = $this->event->index2();
         if($model['success']){
             echo json_encode(['data' => $model['model']]);
         }
@@ -56,7 +56,7 @@ class Info extends Controller
 
     public function actIndexTv()
     {
-        $model = $this->info->indextv();
+        $model = $this->event->indextv();
         if($model['success']){
             echo json_encode(['data' => $model['model']]);
         }
@@ -70,23 +70,23 @@ class Info extends Controller
         if (empty($input['id'])) {
             die(json_encode(['error' => 'Id required']));
         }
-        echo json_encode($this->info->selectWithId($input['id']));
+        echo json_encode($this->event->selectWithId($input['id']));
     }
 
     public function actUpdate()
     {
         $input = $this->request->getJSON();
-        if (empty($input->data->title)) {
-            die(json_encode(['error' => 'Title required']));
+        if (empty($input->data->keterangan)) {
+            die(json_encode(['error' => 'Keterangan required']));
         }
-        if (empty($input->data->caption)) {
-            die(json_encode(['error' => 'Caption required']));
+        if (empty($input->data->date_start)) {
+            die(json_encode(['error' => 'Tanggal required']));
         }
 
         if (empty($input->data->id)) {
-            $result = $this->info->insert((array) $input->data);
+            $result = $this->event->insert((array) $input->data);
         } else {
-            $result = $this->info->update((array) $input->data);
+            $result = $this->event->update((array) $input->data);
         }
         
         echo json_encode($result);
@@ -100,7 +100,7 @@ class Info extends Controller
                 $path = 'assets/upload/' . $_FILES['file']['name'];  
                 if(move_uploaded_file($_FILES['file']['tmp_name'], $path))  
                 {  
-                    $result = $this->info->update($image);
+                    $result = $this->event->update($image);
                     echo json_encode(['success' => 'Gambar Berhasil diubah']);
                     if($id == false){
                         echo json_encode(['error' => 'Submit yang kiri dulu']);  
@@ -119,7 +119,7 @@ class Info extends Controller
         if (empty($input->id)) {
             die(json_encode(['error' => 'id required']));
         }
-        $result = $this->info->delete($input->id);
+        $result = $this->event->delete($input->id);
         echo json_encode($result);
     }
 

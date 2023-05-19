@@ -3,39 +3,41 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <!-- <div class="col-sm-6"> -->
-            <h1>Information</h1>
-            <a href="/admin/info/form" class="btn btn-success ml-auto"><i class="fa fa-plus"></i> Tambah Data</a>
+            <h1>Events</h1>
+            <a href="/admin/event/form" class="btn btn-success ml-auto"><i class="fa fa-plus"></i> Tambah Data</a>
             <!-- </div> -->
         </div>
     </div><!-- /.container-fluid -->
 </section>
 
-<section class="content" ng-controller="infoindex">
+<section class="content" ng-controller="eventindex">
     <div class="card">
         <div class="card-header">
-            <h3 class="card-title">Information List</h3>
+            <h3 class="card-title">Event List</h3>
         </div>
         <!-- /.card-header -->
         <div class="card-body">
             <table id="example1" class="table table-bordered table-striped">
                 <thead>
                     <tr>
-                        <th>Date Created</th>
-                        <th>Image</th>
-                        <th>Title</th>
+                        <th>Date</th>
+                        <th>Keterangan Event</th>
+                        <th>Lokasi</th>
+                        <th>PIC</th>
                         <th>Active</th>
                         <th>Created By</th>
                         <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr ng-repeat="user in users">
-                        <td ng-bind="user.date_created"></td>    
-                        <td><img src="/assets/upload/{{ user.image }}" class="img-thumbnail" width="200px" alt=""></td>
-                        <td>{{ user.title }}</td>
-                        <td>{{ user.active == 1 ? 'Ya' : 'Tidak' }}</td>
-                        <td>{{ user.nama }}</td>
-                        <td><a href="/admin/info/form?id={{user.id}}" class="btn btn-warning btn-sm mr-2"><i class="fa fa-edit"></i> Edit</a><button class="btn btn-danger btn-sm" ng-click="delete(user.id)"><i class="fa fa-trash"></i> Delete</button></td>
+                    <tr ng-repeat="event in events">
+                        <td ng-bind="event.date_start"></td>   
+                        <td>{{ event.keterangan }}</td>
+                        <td>{{ event.location }}</td>
+                        <td>{{ event.pic }}</td>
+                        <td>{{ event.active == 1 ? 'Ya' : 'Tidak' }}</td>
+                        <td>{{ event.nama }}</td>
+                        <td><a href="/admin/event/form?id={{event.id}}" class="btn btn-warning btn-sm mr-2"><i class="fa fa-edit"></i> Edit</a><button class="btn btn-danger btn-sm" ng-click="delete(event.id)"><i class="fa fa-trash"></i> Delete</button></td>
                     </tr>
                 </tbody>
             </table>
@@ -44,13 +46,13 @@
 </section>
 
 <script>
-    app.controller('infoindex', function($scope, $http, $timeout) {
-        $scope.akun = function() {
+    app.controller('eventindex', function($scope, $http, $timeout) {
+        $scope.event = function() {
             $http({
                 method: 'POST',
-                url: '/admin/info/actindex'
+                url: '/admin/event/actindex'
             }).then(function(response) {
-                $scope.users = response.data.data;
+                $scope.events = response.data.data;
                 $timeout(function() {
                     $('#example1').DataTable({
                         order: [[1, 'desc']],
@@ -62,16 +64,16 @@
         $scope.delete = function (id) {
             $http({
                 method: 'POST',
-                url: '/admin/info/actdelete',
+                url: '/admin/event/actdelete',
                 data: {
                     id: id,
                 }
             }).then(function(response){
                 console.log(response.data);
                 $('#example1').DataTable().destroy();
-                $scope.akun();
+                $scope.event();
             })
         }
-        $scope.akun();
+        $scope.event();
     })
 </script>
