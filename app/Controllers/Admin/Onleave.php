@@ -6,6 +6,7 @@ use CodeIgniter\Controller;
 use App\Libraries\AccountLib;
 use App\Libraries\OnleaveLib;
 use App\Libraries\EmailingLib;
+use App\Libraries\DashboardLib;
 
 class Onleave extends Controller
 {
@@ -13,7 +14,10 @@ class Onleave extends Controller
     {
         $this->account = new AccountLib;
         $this->onleave = new OnleaveLib;
-        
+
+        $this->dasbor = new Dashboard;
+        $this->webdata = (object) $this->dasbor->actselect2();
+
     }
 
     public function index()
@@ -25,6 +29,7 @@ class Onleave extends Controller
         $data = [
             'title' => 'Home',
             'id_user' => $this->account->signCheck()['model']->id,
+            'webdata' => $this->webdata->model,
         ];
         return view('common/header', $data) . view('onleave/index', $data) . view('common/footer');
     }
@@ -37,6 +42,7 @@ class Onleave extends Controller
         $data = [
             'title' => 'Form',
             'id_user' => $this->account->signCheck()['model']->id,
+            'webdata' => $this->webdata->model,
         ];
         return view('common/header', $data) . view('onleave/form', $data) . view('common/footer');
     }

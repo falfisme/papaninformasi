@@ -6,6 +6,8 @@ use CodeIgniter\Controller;
 use App\Libraries\AccountLib;
 use App\Libraries\InfoLib;
 use App\Libraries\EmailingLib;
+use App\Libraries\DashboardLib;
+
 
 class Info extends Controller
 {
@@ -13,6 +15,9 @@ class Info extends Controller
     {
         $this->account = new AccountLib;
         $this->info = new InfoLib;
+
+        $this->dasbor = new Dashboard;
+        $this->webdata = (object) $this->dasbor->actselect2();
         
     }
 
@@ -25,6 +30,7 @@ class Info extends Controller
         $data = [
             'title' => 'Home',
             'id_user' => $this->account->signCheck()['model']->id,
+            'webdata' => $this->webdata->model,
         ];
         return view('common/header', $data) . view('info/index', $data) . view('common/footer');
     }
@@ -37,6 +43,7 @@ class Info extends Controller
         $data = [
             'title' => 'Form',
             'id_user' => $this->account->signCheck()['model']->id,
+            'webdata' => $this->webdata->model,
         ];
         return view('common/header', $data) . view('info/form', $data) . view('common/footer');
     }

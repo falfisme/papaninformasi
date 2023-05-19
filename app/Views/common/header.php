@@ -3,10 +3,10 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>NLR Indonesia - <?= $title ?></title>
+	<title><?=$webdata->title?> - <?= $title ?></title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-	<link rel="icon" href="/assets/icon.png" type="image/gif" sizes="16x16" />
+	<link rel="icon" href="/assets/upload/<?=$webdata->logo?>" type="image/gif" sizes="16x16" />
 	<link rel="stylesheet" href="/assets/bootstrap4.3.1/css/bootstrap.min.css">
 	<!-- <link rel="stylesheet" href="/assets/adminmenu.css?ver=20210120"> -->
 	<link rel="stylesheet" href="/assets/js/jquery-ui.css">
@@ -56,9 +56,9 @@
 		<aside class="main-sidebar sidebar-dark-primary elevation-4">
 			<!-- Brand Logo -->
 			<a href="/dashboard" class="brand-link logo-switch">
-				<img src="/assets/nlrlogo.jpg" alt="AdminLTE Logo" class="brand-image-xl elevation-3" style="opacity: .8">
+				<img src="/assets/upload/<?=$webdata->logo?>" alt="AdminLTE Logo" class="brand-image-xl elevation-3" style="opacity: .8">
 				<!-- <i class="nav-icon fas fa-check text-info ml-3 p-1"></i> -->
-				<span class="brand-text font-weight-bold">NLR Indonesia</span>
+				<span class="brand-text font-weight-bold"><?=$webdata->title?></span>
 			</a>
 
 			<!-- Sidebar -->
@@ -84,14 +84,14 @@
 						<!-- MENU DASHBOARD -->
 
 						<li class="nav-item">
-							<a href="/admin/dashboard/" class="nav-link waria">
+							<a href="/admin/dashboard/" class="nav-link home">
 								<i class="nav-icon fa fa-home"></i>
 								<p>Home</p>
 							</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="/admin/onleave/" class="nav-link waria">
+							<a href="/admin/onleave/" class="nav-link onleave">
 								<i class="nav-icon fa fa-door-open"></i>
 								<p>On leave</p>
 							</a>
@@ -99,59 +99,42 @@
 
 
 						<li class="nav-item">
-							<a href="/admin/info/" class="nav-link dasbor">
+							<a href="/admin/info/" class="nav-link info">
 								<i class="nav-icon fas fa-info "></i>
 								<p>Informations</p>
 							</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="/admin/event/" class="nav-link wps">
+							<a href="/admin/event/" class="nav-link events">
 								<i class="nav-icon fa fa-calendar"></i>
 								<p>Events</p>
 							</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="/admin/chart/" class="nav-link wps">
-								<i class="nav-icon fa fa-area-chart"></i>
+							<a href="/admin/chart/" class="nav-link chart">
+								<i class="nav-icon fas fa-chart-pie"></i>
 								<p>Chart</p>
 							</a>
 						</li>
 
 						<li class="nav-header" ng-show="type == 1">Settings</li>
 						<li class="nav-item" ng-show="type == 1">
-							<a href="/admin/account/index" class="nav-link akun">
+							<a href="/admin/account/index" class="nav-link users">
 								<i class="nav-icon fas fa-users"></i>
 								<p>User Management</p>
 							</a>
 						</li>
 
-						<!-- MENU PENGGUNA -->
-						<!-- <li class="nav-item has-treeview">
-							<a href="#" class="nav-link">
-								<i class="nav-icon fas fa-user"></i>
-								<p>
-									WPS
-									<i class="right fas fa-angle-left"></i>
-								</p>
+						<li class="nav-item">
+							<a href="/admin/dashboard/setting" class="nav-link settings">
+								<i class="nav-icon  far fa-plus-square"></i>
+								<p>Settings</p>
 							</a>
-							<ul class="nav nav-treeview">
-								<li class="nav-item">
-									<a href="#" class="nav-link">
-										<i class="fas fa-table nav-icon"></i>
-										<p>Data Pengguna</p>
-									</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">
-										<i class="fas fa-plus nav-icon"></i>
-										<p>Tambah Pengguna</p>
-									</a>
-								</li>
-							</ul>
-						</li> -->
+						</li>
 
+						
 					</ul>
 				</nav>
 				<!-- /.sidebar-menu -->
@@ -165,33 +148,34 @@
 
 			<script>
 				$(function() {
-					var current = location.pathname;
-					if (current == "/dashboard/" || current == "/dashboard") {
-						$(".dasbor").addClass("active");
+					var current = <?=$title?>;
+					console.log(current);
+					if (current == "home") {
+						$(".home").addClass("active");
 					}
 
-					if (current == "/dashboard/index.php/main/wps") {
-						$(".wps").addClass("active");
+					if (current == "onleave") {
+						$(".onleave").addClass("active");
 					}
 
-					if (current == "/dashboard/index.php/main/lsl") {
-						$(".lsl").addClass("active");
+					if (current == "info") {
+						$("info").addClass("active");
 					}
 
-					if (current == "/dashboard/index.php/main/pelanggan") {
-						$(".pelanggan").addClass("active");
+					if (current == "events") {
+						$(".events").addClass("active");
 					}
 
-					if (current == "/dashboard/index.php/main/penasun") {
-						$(".penasun").addClass("active");
+					if (current == "chart") {
+						$(".chart").addClass("active");
 					}
 
-					if (current == "/dashboard/index.php/main/waria") {
-						$(".waria").addClass("active");
+					if (current == "users") {
+						$(".users").addClass("active");
 					}
 
-					if (current.includes('/dashboard/index.php/account')) {
-						$(".akun").addClass("active");
+					if (current.includes('settings')) {
+						$(".settings").addClass("active");
 					}
 				})
 			</script>

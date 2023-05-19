@@ -182,3 +182,351 @@ in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
  7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 02:02:02 --> Class 'App\Libraries\DashboardLib' not found
+in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 02:02:54 --> Class 'App\Libraries\DashboardLib' not found
+in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 02:16:47 --> Undefined offset: 0
+in APPPATH\Libraries\AccountLib.php on line 74.
+ 1 APPPATH\Libraries\AccountLib.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 74, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(42): App\Libraries\AccountLib->selectAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->username()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 02:16:51 --> Undefined index: model
+in APPPATH\Controllers\Admin\Dashboard.php on line 33.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: model', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->setting()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 02:16:56 --> Undefined offset: 0
+in APPPATH\Libraries\AccountLib.php on line 74.
+ 1 APPPATH\Libraries\AccountLib.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 74, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(42): App\Libraries\AccountLib->selectAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->username()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 02:16:59 --> Undefined offset: 0
+in APPPATH\Libraries\AccountLib.php on line 74.
+ 1 APPPATH\Libraries\AccountLib.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 74, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(42): App\Libraries\AccountLib->selectAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->username()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 02:17:01 --> Undefined offset: 0
+in APPPATH\Libraries\AccountLib.php on line 74.
+ 1 APPPATH\Libraries\AccountLib.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 74, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(42): App\Libraries\AccountLib->selectAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->username()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 02:17:04 --> Undefined offset: 0
+in APPPATH\Libraries\AccountLib.php on line 74.
+ 1 APPPATH\Libraries\AccountLib.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 74, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(42): App\Libraries\AccountLib->selectAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->username()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 02:17:08 --> Undefined offset: 0
+in APPPATH\Libraries\AccountLib.php on line 74.
+ 1 APPPATH\Libraries\AccountLib.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 74, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(42): App\Libraries\AccountLib->selectAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->username()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 10:52:58 --> Undefined index: id
+in APPPATH\Controllers\Admin\Dashboard.php on line 81.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 10:53:00 --> Undefined index: id
+in APPPATH\Controllers\Admin\Dashboard.php on line 81.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:40:17 --> Illegal string offset 'model'
+in APPPATH\Views\common\header.php on line 64.
+ 1 APPPATH\Views\common\header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'model\'', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(26): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:40:23 --> Trying to get property 'model' of non-object
+in APPPATH\Views\common\header.php on line 64.
+ 1 APPPATH\Views\common\header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'model\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(26): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:40:27 --> Trying to get property 'model' of non-object
+in APPPATH\Views\common\header.php on line 64.
+ 1 APPPATH\Views\common\header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'model\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(26): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:40:42 --> Trying to get property 'model' of non-object
+in APPPATH\Views\common\header.php on line 64.
+ 1 APPPATH\Views\common\header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'model\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(26): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:41:08 --> Trying to get property 'model' of non-object
+in APPPATH\Controllers\Admin\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'model\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:41:18 --> Trying to get property 'model' of non-object
+in APPPATH\Controllers\Admin\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'model\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:41:29 --> Illegal string offset 'model'
+in APPPATH\Controllers\Admin\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'model\'', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:41:59 --> Trying to get property 'model' of non-object
+in APPPATH\Controllers\Admin\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'model\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:42:11 --> Trying to get property 'model' of non-object
+in APPPATH\Controllers\Admin\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'model\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:42:20 --> Trying to get property 'model' of non-object
+in APPPATH\Controllers\Admin\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'model\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:42:31 --> Array to string conversion
+in APPPATH\Views\common\header.php on line 64.
+ 1 APPPATH\Views\common\header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(26): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:42:38 --> Array to string conversion
+in APPPATH\Views\common\header.php on line 64.
+ 1 APPPATH\Views\common\header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(26): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:42:42 --> Array to string conversion
+in APPPATH\Views\common\header.php on line 64.
+ 1 APPPATH\Views\common\header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(26): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:42:43 --> Array to string conversion
+in APPPATH\Views\common\header.php on line 64.
+ 1 APPPATH\Views\common\header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(26): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:42:43 --> Array to string conversion
+in APPPATH\Views\common\header.php on line 64.
+ 1 APPPATH\Views\common\header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(26): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:42:56 --> Undefined offset: 0
+in APPPATH\Controllers\Admin\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:42:59 --> Undefined offset: 0
+in APPPATH\Controllers\Admin\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:43:04 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\common\header.php on line 64.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 4 APPPATH\Controllers\Admin\Dashboard.php(26): view('common/header', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:43:21 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Admin\Dashboard.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:43:30 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\common\header.php on line 64.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 4 APPPATH\Controllers\Admin\Dashboard.php(26): view('common/header', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:51:52 --> Undefined variable: webdata
+in APPPATH\Views\common\header.php on line 6.
+ 1 APPPATH\Views\common\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: webdata', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Onleave.php(29): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Onleave->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:53:45 --> Call to undefined method App\Libraries\DashboardLib::actselect2()
+in APPPATH\Controllers\Admin\Onleave.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Onleave->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:54:45 --> Undefined variable: webdata
+in APPPATH\Controllers\Admin\Onleave.php on line 32.
+ 1 APPPATH\Controllers\Admin\Onleave.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: webdata', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Onleave.php', 32, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Onleave->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Onleave))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:56:26 --> Undefined variable: webdata
+in APPPATH\Views\common\header.php on line 6.
+ 1 APPPATH\Views\common\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: webdata', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Info.php(29): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Info->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:57:20 --> Undefined variable: webdata
+in APPPATH\Views\common\header.php on line 6.
+ 1 APPPATH\Views\common\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: webdata', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Info.php(29): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Info->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:58:31 --> Undefined variable: webdata
+in APPPATH\Views\common\header.php on line 6.
+ 1 APPPATH\Views\common\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: webdata', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Event.php(29): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Event->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:59:22 --> Undefined variable: webdata
+in APPPATH\Views\common\header.php on line 6.
+ 1 APPPATH\Views\common\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: webdata', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Account.php(29): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:00:26 --> Undefined variable: webdata
+in APPPATH\Views\common\header.php on line 6.
+ 1 APPPATH\Views\common\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: webdata', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('common/header', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(39): view('common/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->setting()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:00:44 --> Undefined variable: webdata
+in APPPATH\Controllers\Admin\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: webdata', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Dashboard.php', 38, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->setting()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

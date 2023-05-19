@@ -5,12 +5,17 @@ namespace App\Controllers\Admin;
 use CodeIgniter\Controller;
 use App\Libraries\AccountLib;
 use App\Libraries\EmailingLib;
+use App\Libraries\DashboardLib;
+
 
 class Account extends Controller
 {
     public function __construct()
     {
         $this->account = new AccountLib;
+
+        $this->dasbor = new Dashboard;
+        $this->webdata = (object) $this->dasbor->actselect2();
     }
 
     private function loginError()
@@ -25,6 +30,7 @@ class Account extends Controller
 
         $data = [
             'title' => 'Home',
+            'webdata' => $this->webdata->model,
         ];
         return view('common/header', $data) . view('account/index') . view('common/footer');
     }
@@ -50,6 +56,7 @@ class Account extends Controller
         }
         $data = [
             'title' => 'Home',
+            'webdata' => $this->webdata->model,
         ];
         return view('common/header', $data) . view('account/form') . view('common/footer');
     }
