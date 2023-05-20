@@ -45,7 +45,9 @@ class Account extends Controller
             echo json_encode($data);
 
         }else{
-            echo json_encode($this->account->selectAccount());
+            $data = $this->account->selectAccount();
+            $data['acc'] = $this->account->signCheck()['model'];
+            echo json_encode($data);
         }
     }
 

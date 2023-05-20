@@ -69,14 +69,20 @@
 	});
 
 	app.controller('sidebar', function($scope, $http) {
+		$scope.acc = {};
 		$scope.getUsername = function() {
 			$http({
 				method: "GET",
 				url: "/admin/account/username",
 			}).then(function(response) {
 				$scope.username = response.data.username
+				$scope.acc = response.data.acc
 				$scope.type = response.data.type
 			});
+		}
+
+		$scope.user = function(){
+			location.href = "/admin/account/form?id=" + $scope.acc.id;
 		}
 		$scope.getUsername();
 	});

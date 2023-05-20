@@ -413,3 +413,56 @@ in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
  8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
  9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:02:44 --> Undefined variable: id_user
+in APPPATH\Views\account\form.php on line 132.
+ 1 APPPATH\Views\account\form.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_user', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\form.php', 132, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/form', [], true)
+ 5 APPPATH\Controllers\Admin\Account.php(61): view('account/form')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->form()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:03:01 --> Undefined variable: id_user
+in APPPATH\Views\account\form.php on line 132.
+ 1 APPPATH\Views\account\form.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_user', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\form.php', 132, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/form', [], true)
+ 5 APPPATH\Controllers\Admin\Account.php(61): view('account/form')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->form()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:03:08 --> Undefined variable: id_user
+in APPPATH\Views\account\form.php on line 132.
+ 1 APPPATH\Views\account\form.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_user', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\form.php', 132, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/form', [], true)
+ 5 APPPATH\Controllers\Admin\Account.php(61): view('account/form')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->form()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:03:43 --> Undefined variable: id_user
+in APPPATH\Views\account\form.php on line 133.
+ 1 APPPATH\Views\account\form.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_user', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\form.php', 133, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\papaninformasi\\app\\Views\\account\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/form', [], true)
+ 5 APPPATH\Controllers\Admin\Account.php(61): view('account/form')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->form()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:03:50 --> syntax error, unexpected '?>'
+in APPPATH\Views\account\form.php on line 133.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('account/form', [], true)
+ 3 APPPATH\Controllers\Admin\Account.php(61): view('account/form')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->form()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

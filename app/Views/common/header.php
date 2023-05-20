@@ -64,9 +64,9 @@
 			<!-- Sidebar -->
 			<div class="sidebar" ng-controller="sidebar">
 				<!-- Sidebar user (optional) -->
-				<div class="user-panel mt-3 pb-3 mb-3 d-flex">
+				<div class="user-panel mt-3 pb-3 mb-3 d-flex" ng-click="user()" style="cursor: pointer;">
 					<div class="image">
-						<img src="/assets/admin/dist/img/gambar2.jpg" class="img-circle elevation-2" alt="User Image">
+						<img src="{{acc.image !== '' ? '/assets/upload/' + acc.image : '/assets/admin/dist/img/gambar2.jpg' }}" class="img-circle elevation-2" alt="User Image">
 					</div>
 					<div class="info">
 						<div class="d-block text-white">{{username}}</div>
