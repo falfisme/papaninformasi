@@ -1,0 +1,415 @@
+ERROR - 2023-05-20 06:13:40 --> mysqli_sql_exception: Table 'papaninformasi.chart' doesn't exist in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT chart.da...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT chart.da...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT chart.da...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT chart.da...')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(59): App\Libraries\ChartLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 06:13:40 --> Table 'papaninformasi.chart' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 4 APPPATH\Libraries\ChartLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Chart.php(59): App\Libraries\ChartLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 06:13:45 --> mysqli_sql_exception: Table 'papaninformasi.chart' doesn't exist in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT chart.da...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT chart.da...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT chart.da...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT chart.da...')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(59): App\Libraries\ChartLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 06:13:45 --> Table 'papaninformasi.chart' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 4 APPPATH\Libraries\ChartLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Chart.php(59): App\Libraries\ChartLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 06:17:32 --> mysqli_sql_exception: Table 'papaninformasi.chart' doesn't exist in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT chart.da...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT chart.da...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT chart.da...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT chart.da...')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(59): App\Libraries\ChartLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 06:17:32 --> Table 'papaninformasi.chart' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 4 APPPATH\Libraries\ChartLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Chart.php(59): App\Libraries\ChartLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 06:17:36 --> mysqli_sql_exception: Table 'papaninformasi.chart' doesn't exist in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT chart.da...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT chart.da...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT chart.da...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT chart.da...')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(59): App\Libraries\ChartLib->index2()
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actIndex()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 06:17:36 --> Table 'papaninformasi.chart' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 4 APPPATH\Libraries\ChartLib.php(39): CodeIgniter\Database\BaseConnection->query('SELECT chart.date_created, chart.date_start, chart.location, chart.keterangan, chart.active, chart.pic, chart.id, account.nama FROM `chart` LEFT JOIN `account` ON account.id = chart.id_user ORDER BY chart.date_created DESC; ')
+ 5 APPPATH\Controllers\Admin\Chart.php(59): App\Libraries\ChartLib->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 06:24:08 --> You must use the "set" method to insert an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2351.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2291): CodeIgniter\Database\BaseBuilder->validateInsert()
+ 2 APPPATH\Libraries\ChartLib.php(95): CodeIgniter\Database\BaseBuilder->insert([])
+ 3 APPPATH\Controllers\Admin\Chart.php(89): App\Libraries\ChartLib->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 06:24:23 --> mysqli_sql_exception: Table 'papaninformasi.chart' doesn't exist in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM c...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...', Array)
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('1')
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 06:24:23 --> Table 'papaninformasi.chart' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM chart WHERE LOWER(id) = \'1\' AND deleted = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM chart WHERE LOWER(id) = \'1\' AND deleted = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM chart WHERE LOWER(id) = \'1\' AND deleted = 0')
+ 4 APPPATH\Libraries\ChartLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM chart WHERE LOWER(id) = ? AND deleted = 0', [...])
+ 5 APPPATH\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 06:28:54 --> Cannot use object of type stdClass as array
+in APPPATH\Libraries\ChartLib.php on line 111.
+ 1 APPPATH\Controllers\Admin\Chart.php(89): App\Libraries\ChartLib->insert([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 06:29:38 --> Cannot use object of type stdClass as array
+in APPPATH\Libraries\ChartLib.php on line 111.
+ 1 APPPATH\Controllers\Admin\Chart.php(89): App\Libraries\ChartLib->insert([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 06:30:25 --> mysqli_sql_exception: Table 'papaninformasi.chart' doesn't exist in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM c...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...', Array)
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('4')
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 06:30:25 --> Table 'papaninformasi.chart' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM chart WHERE LOWER(id) = \'4\' AND deleted = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM chart WHERE LOWER(id) = \'4\' AND deleted = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM chart WHERE LOWER(id) = \'4\' AND deleted = 0')
+ 4 APPPATH\Libraries\ChartLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM chart WHERE LOWER(id) = ? AND deleted = 0', [...])
+ 5 APPPATH\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('4')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 06:31:02 --> mysqli_sql_exception: Table 'papaninformasi.chart' doesn't exist in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM c...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...', Array)
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('5')
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 06:31:02 --> Table 'papaninformasi.chart' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM chart WHERE LOWER(id) = \'5\' AND deleted = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM chart WHERE LOWER(id) = \'5\' AND deleted = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM chart WHERE LOWER(id) = \'5\' AND deleted = 0')
+ 4 APPPATH\Libraries\ChartLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM chart WHERE LOWER(id) = ? AND deleted = 0', [...])
+ 5 APPPATH\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('5')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 06:47:14 --> mysqli_sql_exception: Not unique table/alias: 't1' in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...', Array)
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('6')
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 06:47:14 --> Not unique table/alias: 't1'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t1 WHERE t1.id = t2.id_penyerapan \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t1 WHERE t1.id = t2.id_penyerapan \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t1 WHERE t1.id = t2.id_penyerapan \'6\'')
+ 4 APPPATH\Libraries\ChartLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t1 WHERE t1.id = t2.id_penyerapan ?', [...])
+ 5 APPPATH\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('6')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 06:47:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE t1.id = t2.id_penyerapan '6'' at line 1 in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...', Array)
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('6')
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 06:47:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE t1.id = t2.id_penyerapan '6'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t2 WHERE t1.id = t2.id_penyerapan \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t2 WHERE t1.id = t2.id_penyerapan \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t2 WHERE t1.id = t2.id_penyerapan \'6\'')
+ 4 APPPATH\Libraries\ChartLib.php(76): CodeIgniter\Database\BaseConnection->query('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t2 WHERE t1.id = t2.id_penyerapan ?', [...])
+ 5 APPPATH\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('6')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 06:47:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE t1.id = t2.id_penyerapan' at line 1 in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(75): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('6')
+#5 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 06:47:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE t1.id = t2.id_penyerapan' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t2 WHERE t1.id = t2.id_penyerapan', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t2 WHERE t1.id = t2.id_penyerapan')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t2 WHERE t1.id = t2.id_penyerapan')
+ 4 APPPATH\Libraries\ChartLib.php(75): CodeIgniter\Database\BaseConnection->query('SELECT * FROM penyerapan as t1 LEFT JOIN penyerapan_data as t2 WHERE t1.id = t2.id_penyerapan')
+ 5 APPPATH\Controllers\Admin\Chart.php(81): App\Libraries\ChartLib->selectWithId('6')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actSelect()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:09:57 --> Trying to get property '0' of non-object
+in APPPATH\Libraries\ChartLib.php on line 158.
+ 1 APPPATH\Libraries\ChartLib.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'0\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 158, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:11:16 --> Trying to get property '0' of non-object
+in APPPATH\Libraries\ChartLib.php on line 158.
+ 1 APPPATH\Libraries\ChartLib.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'0\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 158, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:13:14 --> Undefined variable: iid
+in APPPATH\Libraries\ChartLib.php on line 159.
+ 1 APPPATH\Libraries\ChartLib.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: iid', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 159, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:13:51 --> Trying to get property '0' of non-object
+in APPPATH\Libraries\ChartLib.php on line 161.
+ 1 APPPATH\Libraries\ChartLib.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'0\' of non-object', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 161, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:14:35 --> Undefined offset: 2
+in APPPATH\Libraries\ChartLib.php on line 161.
+ 1 APPPATH\Libraries\ChartLib.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 161, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:26:17 --> Undefined offset: 3
+in APPPATH\Libraries\ChartLib.php on line 167.
+ 1 APPPATH\Libraries\ChartLib.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 167, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:26:30 --> Undefined offset: 3
+in APPPATH\Libraries\ChartLib.php on line 167.
+ 1 APPPATH\Libraries\ChartLib.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 167, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:29:12 --> Undefined offset: 2
+in APPPATH\Libraries\ChartLib.php on line 172.
+ 1 APPPATH\Libraries\ChartLib.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 172, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:29:35 --> Undefined offset: 2
+in APPPATH\Libraries\ChartLib.php on line 172.
+ 1 APPPATH\Libraries\ChartLib.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 172, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:39:30 --> Undefined offset: 8
+in APPPATH\Libraries\ChartLib.php on line 169.
+ 1 APPPATH\Libraries\ChartLib.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 8', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 169, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:39:55 --> Undefined offset: 9
+in APPPATH\Libraries\ChartLib.php on line 169.
+ 1 APPPATH\Libraries\ChartLib.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 9', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 169, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:40:59 --> Undefined offset: 2
+in APPPATH\Libraries\ChartLib.php on line 169.
+ 1 APPPATH\Libraries\ChartLib.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 169, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:41:32 --> Undefined offset: 2
+in APPPATH\Libraries\ChartLib.php on line 169.
+ 1 APPPATH\Libraries\ChartLib.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 169, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:42:44 --> Undefined offset: 3
+in APPPATH\Libraries\ChartLib.php on line 174.
+ 1 APPPATH\Libraries\ChartLib.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\ChartLib.php', 174, [...])
+ 2 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 07:43:02 --> mysqli_sql_exception: Column 'val' cannot be null in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(176): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update(Array)
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#8 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-20 07:43:02 --> Column 'val' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `penyerapan_data` (`k`, `val`, `id_penyerapan`) VALUES (\'aa\', NULL, \'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penyerapan_data` (`k`, `val`, `id_penyerapan`) VALUES (\'aa\', NULL, \'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penyerapan_data` (`k`, `val`, `id_penyerapan`) VALUES (\'aa\', NULL, \'6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penyerapan_data` (`k`, `val`, `id_penyerapan`) VALUES (:k:, :val:, :id_penyerapan:)', [...], false)
+ 5 APPPATH\Libraries\ChartLib.php(176): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 07:44:24 --> mysqli_sql_exception: Column 'val' cannot be null in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\papaninformasi\app\Libraries\ChartLib.php(176): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update(Array)
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+#8 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-20 07:44:24 --> Column 'val' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `penyerapan_data` (`k`, `val`, `id_penyerapan`) VALUES (\'Kentut\', NULL, \'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penyerapan_data` (`k`, `val`, `id_penyerapan`) VALUES (\'Kentut\', NULL, \'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penyerapan_data` (`k`, `val`, `id_penyerapan`) VALUES (\'Kentut\', NULL, \'6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penyerapan_data` (`k`, `val`, `id_penyerapan`) VALUES (:k:, :val:, :id_penyerapan:)', [...], false)
+ 5 APPPATH\Libraries\ChartLib.php(176): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Admin\Chart.php(91): App\Libraries\ChartLib->update([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Chart->actUpdate()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Chart))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
