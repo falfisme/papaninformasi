@@ -7,7 +7,7 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-            <h1>{{data.nama || 'Buat User Baru'}}</h1>
+            <h1>{{data.username || 'Buat User Baru'}}</h1>
             </div>
         </div>
     </div><!-- /.container-fluid -->
@@ -99,7 +99,7 @@
 				<div class="card-footer">
 						<div class="text-danger text-left">{{text.error2}}</div>
 						<div class="text-success text-left">{{text.success2}}</div>
-						<button type="submit" id="submitgambar" ng-click="uploadFile()" class="btn btn-primary">Submit Gambar</button>
+						<button type="submit" id="submitgambar" ng-click="uploadFile(data.id)" class="btn btn-primary">Submit Gambar</button>
 					</div>
 			</div>
 		</div>
@@ -113,10 +113,6 @@
 </form>
 </div>
 <script>
-	app.controller("myapp", function($scope) {
-		$scope.page = (id) ? 'Edit Akun' : 'Tambah akun baru'
-	});
-
 	app.directive("fileInput", function($parse){  
       return{  
            link: function($scope, element, attrs){  
@@ -168,7 +164,10 @@
 				$scope.loading = 0;
 				$scope.text.error = response.data.error;
 				$scope.text.success = response.data.success;
-				$scope.id = response.data.id;
+				$scope.data.id = response.data.id;
+				if($scope.text.success){
+					window.location.href = "/admin/account";
+				}
 
 			}).catch(function(fallback) {
 				$scope.loading = 0;
@@ -180,7 +179,14 @@
 			$scope.getData();
 		}
 
-		$scope.uploadFile = function(){  
+		$scope.uploadFile = function(id){  
+			if(!id || id.length === 0){
+				if(!$scope.id || $scope.id.length === 0){
+					$scope.text.error2 = 'Submit Biodata dulu';
+					return;
+				}
+				id = $scope.id;
+			}
            var form_data = new FormData();  
            angular.forEach($scope.files, function(file){  
                 form_data.append('file', file);  
@@ -190,11 +196,12 @@
                 transformRequest: angular.identity,  
                 headers: {'Content-Type': undefined,'Process-Data': false},
 				params: {
-					'id': $scope.id
+					'id': id
 				},
            }).then(function(response){  
 				$scope.text.error2 = response.data.error;
 				$scope.text.success2 = response.data.success; 
+				
            });  
       	}  
 	});

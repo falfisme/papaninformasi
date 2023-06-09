@@ -15,24 +15,6 @@ class InfoLib
     }
 
 
-    public function index($filter = [], $page = 1, $limit = false, $order = "id DESC")
-    {
-        $allowed = ['id', 'terdaftar', 'username', 'email', 'type', 'last_login'];
-        $allowed_map = [];
-        $query = "SELECT SQL_CALC_FOUND_ROWS * FROM info WHERE 1";
-        $condition = $this->qh->setFilter($query, $filter, $allowed, $allowed_map);
-        $this->qh->setOrder($query, $order);
-        $this->qh->setLimit($query, $page, $limit);
-        $model = $this->db->query($query, $condition)->getResult();
-        $total = $this->db->query("SELECT FOUND_ROWS() as total")->getRow();
-        $result = [
-            'success' => 'Get index success.',
-            'model' => $model,
-            'pagination' => ['page' => $page, 'limit' => $limit, 'total' => $total->total]
-        ];
-        return $result;
-    }
-
     public function index2()
     {
         $this->db = \Config\Database::connect();
@@ -86,7 +68,6 @@ class InfoLib
         $allowed = ['id', 'image', 'title', 'caption', 'data_created', 'data_updated', 'active', 'id_user', 'deleted'];
         $model = $this->qh->setInput($data, $allowed);
         $this->db->table('info')->insert($model);
-        // $this->db->table('info')->insert($data);
         $iid = $this->db->insertID();
         $affected = $this->db->affectedRows();
         if (!$affected) {
@@ -104,9 +85,6 @@ class InfoLib
         if (!$affected) {
             return ['error' => 'No changes.'];
         }
-
-        // var_dump($affected);
-        // die();
 
         return ['success' => 'Update success.', 'affected' => $affected];
     }

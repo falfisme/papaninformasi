@@ -88,6 +88,8 @@
 			}).then(function(response) {
 				$scope.text.error = response.data.error;
 				$scope.data = response.data.model;
+				$scope.data.date_start = new Date($scope.data.date_start);
+				$scope.data.date_end = new Date($scope.data.date_end);
 				$scope.loading = 0;
 			}).catch(function(fallback) {
 				$scope.loading = 0;

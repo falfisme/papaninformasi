@@ -13,22 +13,23 @@ class Info extends Controller
 {
     public function __construct()
     {
+        
         $this->account = new AccountLib;
         $this->info = new InfoLib;
 
         $this->dasbor = new Dashboard;
         $this->webdata = (object) $this->dasbor->actselect2();
+
+        if (!empty($this->account->signCheck()['error'])) {
+            die('please <a href="/admin/account/login">login</a>.');
+        }
         
     }
 
     public function index()
     {
-        if (!empty($this->account->signCheck()['error'])) {
-            die('please <a href="/admin/account/login">login</a>.');
-        }
-
         $data = [
-            'title' => 'Home',
+            'title' => 'Information',
             'id_user' => $this->account->signCheck()['model']->id,
             'webdata' => $this->webdata->model,
         ];
@@ -37,9 +38,6 @@ class Info extends Controller
 
     public function form()
     {
-        if (!empty($this->account->signCheck()['error'])) {
-            die('please <a href="/admin/account/login">login</a>.');
-        }
         $data = [
             'title' => 'Form',
             'id_user' => $this->account->signCheck()['model']->id,
@@ -51,9 +49,6 @@ class Info extends Controller
     // 
     public function actIndex()
     {
-        if (!empty($this->account->signCheck()['error'])) {
-            die('please <a href="/admin/account/login">login</a>.');
-        }
 
         $model = $this->info->index2();
         if($model['success']){
@@ -107,16 +102,30 @@ class Info extends Controller
                 $path = 'assets/upload/' . $_FILES['file']['name'];  
                 if(move_uploaded_file($_FILES['file']['tmp_name'], $path))  
                 {  
-                    $result = $this->info->update($image);
-                    echo json_encode(['success' => 'Gambar Berhasil diubah']);
-                    if($id == false){
-                        echo json_encode(['error' => 'Submit yang kiri dulu']);  
+                    if (empty($id)) {
+                        die(json_encode(['error' => 'Submit Biodata Dulu']));
+                    } else {
+                        $querydata = $this->info->selectWithId($id);
+                        $select = $querydata['model']->image;
+                        if($select == $_FILES['file']['name']){
+                            die(json_encode(['error' => 'No Changes']));
+                        };
+                        if($select){
+                            $result = $this->info->update($image);
+                            if(@unlink('assets/upload/' . $select)){
+                               $result['deleteold'] = 'sucesss'; 
+                            }
+                        }else{
+                            $result = $this->info->update($image);
+                        }
                     }
+                    $result['image'] = $_FILES['file']['name'];
+                    echo json_encode($result);
                 }  
             }  
             else  
             {  
-                echo json_encode(['error' => 'Tidak ada gambar']);  
+                die(json_encode(['error' => 'Error pokonya']));
             }  
     }
 

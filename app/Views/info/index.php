@@ -30,8 +30,8 @@
                 </thead>
                 <tbody>
                     <tr ng-repeat="user in users">
-                        <td ng-bind="user.date_created"></td>    
-                        <td><img src="/assets/upload/{{ user.image }}" class="img-thumbnail" width="200px" alt=""></td>
+                        <td> {{ user.date_created | date: "dd-MM-yyyyTHH:mm:ss"}}</td>    
+                        <td><img src="{{ user.image ? '/assets/upload/' + user.image : '' }}" class="img-thumbnail" width="200px" alt=""></td>
                         <td>{{ user.title }}</td>
                         <td>{{ user.active == 1 ? 'Ya' : 'Tidak' }}</td>
                         <td>{{ user.nama }}</td>

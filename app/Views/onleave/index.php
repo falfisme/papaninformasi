@@ -35,8 +35,8 @@
                         <td ng-bind="onleave.nama"></td>   
                         <td>{{ onleave.jabatan }}</td>
                         <td>{{ onleave.task }}</td>
-                        <td>{{ onleave.date_start }}</td>
-                        <td>{{ onleave.date_end }}</td>
+                        <td>{{ onleave.date_start | date: "dd-MM-yyyy" }}</td>
+                        <td>{{ onleave.date_end | date: "dd-MM-yyyy" }}</td>
                         <td>{{ onleave.active == 1 ? 'Ya' : 'Tidak' }}</td>
                         <td>{{ onleave.namapembuat }}</td>
                         <td><a href="/admin/onleave/form?id={{onleave.id}}" class="btn btn-warning btn-sm mr-2"><i class="fa fa-edit"></i> Edit</a><button class="btn btn-danger btn-sm" ng-click="delete(onleave.id)"><i class="fa fa-trash"></i> Delete</button></td>

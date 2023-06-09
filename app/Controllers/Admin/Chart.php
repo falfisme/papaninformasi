@@ -28,7 +28,7 @@ class Chart extends Controller
         }
 
         $data = [
-            'title' => 'Home',
+            'title' => 'Chart',
             'id_user' => $this->account->signCheck()['model']->id,
             'webdata' => $this->webdata->model,
         ];

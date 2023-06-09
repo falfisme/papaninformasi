@@ -20,7 +20,7 @@ class Dashboard extends Controller
     {
         $webdata = (object) $this->actselect2();
         $data = [
-            'title' => 'home',
+            'title' => 'Home',
             'webdata' => $webdata->model,
         ];
         return view('common/header', $data) . view('dashboard/index') . view('common/footer');

@@ -1,0 +1,123 @@
+CRITICAL - 2023-06-09 17:04:11 --> unlink(assets/upload/WIN_20230321_11_23_31_Pro.jpg): No such file or directory
+in APPPATH\Controllers\Admin\Account.php on line 210.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/upload/WIN_20230321_11_23_31_Pro.jpg): No such file or directory', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Account.php', 210, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(210): unlink('assets/upload/WIN_20230321_11_23_31_Pro.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 17:09:07 --> unlink(assets/upload/WIN_20230321_11_23_31_Pro.jpg): No such file or directory
+in APPPATH\Controllers\Admin\Account.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/upload/WIN_20230321_11_23_31_Pro.jpg): No such file or directory', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Account.php', 206, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(206): unlink('assets/upload/WIN_20230321_11_23_31_Pro.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUploadImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 17:14:01 --> Undefined index: passwordx
+in APPPATH\Libraries\AccountLib.php on line 164.
+ 1 APPPATH\Libraries\AccountLib.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: passwordx', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 164, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(179): App\Libraries\AccountLib->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 17:15:30 --> Undefined index: passwordx
+in APPPATH\Libraries\AccountLib.php on line 164.
+ 1 APPPATH\Libraries\AccountLib.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: passwordx', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 164, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(179): App\Libraries\AccountLib->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 17:16:46 --> Undefined index: passwordx
+in APPPATH\Libraries\AccountLib.php on line 164.
+ 1 APPPATH\Libraries\AccountLib.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: passwordx', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 164, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(179): App\Libraries\AccountLib->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 17:16:56 --> Undefined index: passwordx
+in APPPATH\Libraries\AccountLib.php on line 164.
+ 1 APPPATH\Libraries\AccountLib.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: passwordx', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 164, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(179): App\Libraries\AccountLib->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 17:28:17 --> Undefined index: passwordx
+in APPPATH\Libraries\AccountLib.php on line 164.
+ 1 APPPATH\Libraries\AccountLib.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: passwordx', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Libraries\\AccountLib.php', 164, [...])
+ 2 APPPATH\Controllers\Admin\Account.php(179): App\Libraries\AccountLib->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Account->actUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 18:10:38 --> Undefined index: id
+in APPPATH\Controllers\Admin\Info.php on line 103.
+ 1 APPPATH\Controllers\Admin\Info.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Info.php', 103, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Info->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 18:18:21 --> Undefined index: id
+in APPPATH\Controllers\Admin\Info.php on line 124.
+ 1 APPPATH\Controllers\Admin\Info.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Info.php', 124, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Info->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 22:46:44 --> Undefined index: id
+in APPPATH\Controllers\Admin\Info.php on line 124.
+ 1 APPPATH\Controllers\Admin\Info.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Info.php', 124, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Info->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 22:54:23 --> Undefined index: id
+in APPPATH\Controllers\Admin\Info.php on line 124.
+ 1 APPPATH\Controllers\Admin\Info.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Info.php', 124, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Info->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 22:55:46 --> Undefined index: id
+in APPPATH\Controllers\Admin\Info.php on line 124.
+ 1 APPPATH\Controllers\Admin\Info.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Info.php', 124, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Info->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 22:59:30 --> Undefined index: id
+in APPPATH\Controllers\Admin\Info.php on line 124.
+ 1 APPPATH\Controllers\Admin\Info.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\papaninformasi\\app\\Controllers\\Admin\\Info.php', 124, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Info->actUploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-09 23:03:55 --> mysqli_sql_exception: Column 'deleted' cannot be null in C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\papaninformasi\app\Libraries\InfoLib.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\papaninformasi\app\Controllers\Admin\Info.php(94): App\Libraries\InfoLib->insert(Array)
+#6 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Info->actUpdate()
+#7 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
+#8 C:\xampp\htdocs\papaninformasi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\papaninformasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-09 23:03:55 --> Column 'deleted' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `info` (`image`, `title`, `caption`, `active`, `id_user`, `deleted`) VALUES (\'Screenshot 2023-03-16 135811.png\', \'hhahhuaa\', \'haha\', \'1\', \'2\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `info` (`image`, `title`, `caption`, `active`, `id_user`, `deleted`) VALUES (\'Screenshot 2023-03-16 135811.png\', \'hhahhuaa\', \'haha\', \'1\', \'2\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `info` (`image`, `title`, `caption`, `active`, `id_user`, `deleted`) VALUES (\'Screenshot 2023-03-16 135811.png\', \'hhahhuaa\', \'haha\', \'1\', \'2\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `info` (`image`, `title`, `caption`, `active`, `id_user`, `deleted`) VALUES (:image:, :title:, :caption:, :active:, :id_user:, :deleted:)', [...], false)
+ 5 APPPATH\Libraries\InfoLib.php(88): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Admin\Info.php(94): App\Libraries\InfoLib->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Info->actUpdate()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Info))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

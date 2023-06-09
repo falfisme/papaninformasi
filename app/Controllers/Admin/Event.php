@@ -28,7 +28,7 @@ class Event extends Controller
         }
 
         $data = [
-            'title' => 'Home',
+            'title' => 'Event',
             'id_user' => $this->account->signCheck()['model']->id,
             'webdata' => $this->webdata->model,
         ];

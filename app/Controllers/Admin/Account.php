@@ -29,7 +29,7 @@ class Account extends Controller
         }
 
         $data = [
-            'title' => 'Home',
+            'title' => 'Account',
             'webdata' => $this->webdata->model,
         ];
         return view('common/header', $data) . view('account/index') . view('common/footer');
@@ -192,18 +192,30 @@ class Account extends Controller
                 if(move_uploaded_file($_FILES['file']['tmp_name'], $path))  
                 {  
                     if (empty($id)) {
-                        $result = $this->account->insert($image);
+                        die(json_encode(['error' => 'Submit Biodata Dulu']));
+                        // $result = $this->account->insert($image);
                     } else {
-                        $result = $this->account->update($image);
+                        $querydata = $this->account->selectWithId($id);
+                        $select = $querydata['model']->image;
+                        if($select == $_FILES['file']['name']){
+                            die(json_encode(['error' => 'No Changes']));
+                        };
+                        if($select){
+                            $result = $this->account->update($image);
+                            if(@unlink('assets/upload/' . $select)){
+                               $result['deleteold'] = 'sucesss'; 
+                            }
+                        }else{
+                            $result = $this->account->update($image);
+                        }
                     }
                     $result['image'] = $_FILES['file']['name'];
-                    // die();
                     echo json_encode($result);
                 }  
             }  
             else  
             {  
-                echo 'Some Error';  
+                die(json_encode(['error' => 'Error pokonya']));
             }  
     }
 

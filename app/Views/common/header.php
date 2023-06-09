@@ -21,6 +21,12 @@
 	<!-- Google Font: Source Sans Pro -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 	<!-- ckeditor -->
+
+	<style>
+		.active{
+			background-color: #E37112 !important; 
+		}
+	</style>
 	<script src="/assets/ckeditor/ckeditor.js" type="text/javascript"></script>
 	<script src="/assets/ckeditor/samples/js/sample.js" type="text/javascript"></script>
 	<script src="/assets/js/jquery3.4.1.min.js"></script>
@@ -148,7 +154,7 @@
 
 			<script>
 				$(function() {
-					var current = <?=$title?>;
+					var current = "<?php echo strtolower($title);?>";
 					console.log(current);
 					if (current == "home") {
 						$(".home").addClass("active");
@@ -158,11 +164,11 @@
 						$(".onleave").addClass("active");
 					}
 
-					if (current == "info") {
-						$("info").addClass("active");
+					if (current == "information") {
+						$(".info").addClass("active");
 					}
 
-					if (current == "events") {
+					if (current == "event") {
 						$(".events").addClass("active");
 					}
 
@@ -170,7 +176,7 @@
 						$(".chart").addClass("active");
 					}
 
-					if (current == "users") {
+					if (current == "account") {
 						$(".users").addClass("active");
 					}
 
