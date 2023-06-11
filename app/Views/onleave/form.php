@@ -37,11 +37,11 @@
 				</div>
 				<div class="form-group">
 					<label>Tanggal Mulai</label>
-					<input type="date" ng-model="data.date_start" class="form-control">
+					<input type="date" ng-model="data.date_start" ng-model-options="{timezone: 'utc'}" class="form-control">
 				</div>
 				<div class="form-group">
 					<label>Tanggal Selesai</label>
-					<input type="date" ng-model="data.date_end" class="form-control">
+					<input type="date" ng-model="data.date_end" ng-model-options="{timezone: 'utc'}" class="form-control">
 				</div>
 				<div class="form-group">
 					<label>Muncul di TV?</label>
